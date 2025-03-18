@@ -64,7 +64,7 @@ export default function ComingSoon() {
 
         <div className="col-span-12 md:col-span-5 lg:col-span-4 flex flex-col justify-center px-8 md:px-4">
           <p className="text-white text-xl md:text-2xl mb-3 font-roboto font-medium">
-            Head's-up! We're Almost Here!
+            Heads-up! We're Almost Here!
           </p>
           <h1 className="text-white text-4xl md:text-4xl lg:text-5xl font-roboto font-bold mb-8 w-full">
             Get Notified When
@@ -78,7 +78,7 @@ export default function ComingSoon() {
               <div className="flex-grow rounded-full overflow-hidden bg-white shadow-md">
                 <input
                   type="text"
-                  placeholder="Enter your name and surname"
+                  placeholder="Enter your Name and Surname"
                   className="w-full p-2 pl-5 text-gray-700 outline-none border-none"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
@@ -92,7 +92,7 @@ export default function ComingSoon() {
               <div className="flex-grow rounded-l-full overflow-hidden bg-white shadow-md">
                 <input
                   type="email"
-                  placeholder="Enter your email address"
+                  placeholder="Enter your Email Address"
                   className={`w-full p-2 pl-5 text-gray-700 outline-none border-none ${
                     !isEmailValid ? "border-red-500" : ""
                   }`}
@@ -117,7 +117,7 @@ export default function ComingSoon() {
 
           {!isEmailValid && (
             <p className="text-red-500 text-sm pl-5 mb-2">
-              Please enter a valid email address
+              Please enter a valid Email Address
             </p>
           )}
 
